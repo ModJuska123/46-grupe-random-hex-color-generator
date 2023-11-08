@@ -1,0 +1,30 @@
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container {
+    width: 400px;
+    height: 200px;
+    background-color: deepskyblue;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+hr {
+    width: 80%;
+    color: #fff;
+}
+
+.btn {
+    margin-top: 30px;
+    background-color: chocolate;
+    color: blueviolet;
+    border: none;
+    padding: 10px;
+}
