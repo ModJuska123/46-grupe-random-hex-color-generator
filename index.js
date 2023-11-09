@@ -1,7 +1,6 @@
 console.log('veikia');
-
 const span = document.querySelector('span');
-const btn = document.querySelector('btn');
+const btn = document.querySelector('button');
 const body = document.querySelector('body');
 
 const generateHexColor = ()=> {
@@ -10,8 +9,13 @@ const generateHexColor = ()=> {
     span.innerHTML = '#' + randomColor;
 
     body.style.backgroundColor = '#' + randomColor;
+
+    btn.style.color = '#' + randomColor;
+
 }
 
 
 btn.addEventListener("click", generateHexColor);
 body.addEventListener("mousewheel", generateHexColor);
+ 
+console.log(a);
